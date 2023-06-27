@@ -263,7 +263,7 @@ return [
             'className' => Connection::class,
             'driver' => Mysql::class,
             'persistent' => false,
-            'host' => 'localhost',
+            'host' => 'containers-us-west-92.railway.app',
             /*
              * CakePHP will use the default DB port based on the driver selected
              * MySQL on MAMP uses port 8889, MAMP users will want to uncomment
@@ -274,8 +274,8 @@ return [
              * It is recommended to set these options through your environment or app_local.php
              */
             'username' => 'root',
-            'password' => '',
-            'database' => 'base_recuperar',
+            'password' => 'rPywQdtY9xI6eRuXF6iq',
+            'database' => 'railway',
             /*
              * You do not need to set this flag to use full utf-8 encoding (internal default since CakePHP 3.6).
              */
